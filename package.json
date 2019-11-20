@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node -r esm app.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "esm": "^3.2.25",
+    "express": "~4.16.1",
+    "himalaya": "^1.1.0",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "jsontoxml": "^1.0.1",
+    "morgan": "~1.9.1",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.4"
+  }
+}
